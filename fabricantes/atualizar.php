@@ -30,7 +30,7 @@
                     // header("location:listar.php");
                     // echo "<p>Fabricante atualizdo com sucesso!</p>";
                     // header("refresh:3; url=listar.php");
-                    header("location:lista.php?status=sucesso");
+                    header("location:listar.php?status=sucesso");
                 } 
             ?>
 

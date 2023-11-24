@@ -36,7 +36,7 @@
                     <p><b>Descrição:</b>  <?=$produto['descricao']?></p>
                     <!-- <p><b>Fabricantes:</b> <?=$produto['fabricante_id'] ?></p> -->
 
-                    <p><b>Fabricante:</b> <?=$produto['fabricante']?></p>
+                    <p><b>Fabricantes:</b> <?=$produto['fabricantes']?></p>
 
                     <p>
                         <a href="atualizar.php?id=<?=$produto['id']?>" style ="color: blue;">Atualizar</a>
@@ -51,5 +51,7 @@
     </div>
 
     <script src="../js/confirm.js"></script>
+    <!-- <p><a href="../index.html">Home</a></p> -->
+
 </body>
 </html>

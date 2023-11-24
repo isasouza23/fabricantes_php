@@ -35,7 +35,7 @@
                             <th colspan="2">Operações</th>
                         </tr>
                     </thead>
-                    <tbody>
+                <tbody>
                         <?php
                             // echo "<pre>";
                             // var_dump($dados);
@@ -56,5 +56,7 @@
             </div>
 
             <script scr="../js/confirm.js"></script>
+            <!-- <p><a href="../index.html">Home</a></p> -->
+
         </body>
         </html>

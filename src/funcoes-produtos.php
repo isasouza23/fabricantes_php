@@ -16,7 +16,7 @@
                     produtos.quantidade,
                     fabricantes.nome AS fabricantes
                 FROM produtos INNER JOIN fabricantes
-                ON produtos.fabricantes_id = fabricantes.id
+                ON produtos.fabricante_id = fabricantes.id
                 ORDER BY produto";
 
         try {
@@ -36,7 +36,7 @@
 
     // Programar a função inserirProdutos neste ponto 
     function inserirProdutos(PDO $conexao, string $nome, float $preco, int $quantidade, string $descricao, int $fabricanteId):void { //void indica sem retorno
-        $sql = "INSERT INTO produtos(nome, preco, quantidade, descricao, fabricantes_id) VALUES(:nome, :preco, :quantidade, :descricao, :fabricantes_id)";
+        $sql = "INSERT INTO produtos(nome, preco, quantidade, descricao, fabricantes_id) VALUES(:nome, :preco, :quantidade, :descricao, :fabricante_id)";
 
         try {
             // preparacao do conteudo 
